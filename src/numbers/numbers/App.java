@@ -51,5 +51,9 @@ public class App {
 		System.out.println("\nDezimalbruch bilden");
 		b = new Rational(1,3);
 		System.out.println("Der Dezimalbruch als double-Zahl zu " + b + " ist " + b.getDoubleWert());
+		
+		System.out.println("\nBruch kürzen by PKH");
+		kuerzenBruch h = new kuerzenBruch();
+		h.ausführen();
 	}
 }
